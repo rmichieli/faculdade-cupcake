@@ -1,0 +1,247 @@
+body{
+    background-color: black;
+}
+.container{
+    max-width: 480px;
+    max-height: 738px;
+    min-height: 738px;
+    border-radius: 5%;
+    background-color: white;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 600px;
+    max-height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+form::-webkit-scrollbar {
+    width: 10px;
+ }
+  
+  /* Track */
+ form::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+  
+/* Handle */
+form::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 10px;
+}
+
+
+
+
+
+.logo-principal{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.welcome{
+    margin-bottom: 250px;
+}
+.cad{
+    margin: 10px;
+}
+.m-4, .m-5{
+    width: 350px;
+}
+.cad-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.modal{
+    max-width: 450px;
+}
+.espaco{
+    height: 70px;
+}
+.exibir-modal{
+    display: block;
+    position: relative;
+    margin-top: -600px;
+}
+.modal-footer{
+    justify-content: center;
+}
+.menu-row{
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    z-index: 100;
+}
+.img-estante{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+}
+.img-estante-transparente{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border-style: one;
+}
+.menu-icon:hover,.cart-icon:hover,.img-fav:hover,
+.lupa:hover,.img-produto:hover,.img-add:hover,
+.img-remove:hover{
+    cursor: pointer;
+}
+.lupa{
+    max-width: 50px;
+    max-height: 30px;
+}
+.row-busca{
+    display: flex;
+    justify-content: space-between;
+}
+.busca{
+    max-width: 300px;
+}
+.row-produtos{
+    display: flex;
+    justify-content: space-around;
+    max-height: 170px;
+    text-align: center;
+}
+.card-cupcake{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-produto{
+    max-width: 130px;
+    max-height: 100px;
+}
+.img-fav{
+    max-width: 30px;
+    max-height: 30px;
+    position: relative;
+    z-index: 10;
+    margin-left: 125px;
+    margin-top: -15px;
+}
+.nome-prod{
+    margin: 10px;
+}
+.exibir-menu{
+    display: block;
+    position: relative;
+}
+#totalCart{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+    color: green;
+}
+
+.esconder{
+    display: none
+}
+.form-sug{
+    overflow: hidden!important;
+}
+.label-sug{
+    max-width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-sug{
+    resize: none;
+    height: 250px;
+}
+.row-sug{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.menu-row-sug{
+    justify-content: space-between;
+    display: flex;
+    margin-top: -120px!important;
+}
+.menu-row-fix{
+    margin-top: -550px!important;
+    position: fixed;
+}
+.row-hist-title{
+    margin-top: 100px!important;
+}
+.row-hist{
+    display: flex;
+    justify-content: flex-start;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+
+.card-hist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: smaller;
+    flex-wrap: wrap;
+}
+.nome-hist {
+    height: fit-content;
+    width: 150px;
+    text-align: center;
+}
+.img-hist{
+    max-width: 40px;
+    max-height: 40px;
+}
+.label-hist{
+    position: relative;
+    margin-top: -35px;
+}
+.repetir-hist{
+    position: relative;
+    margin-top: -30px;
+    margin-left: 300px;
+    height: 35px;
+}
+.card-vazio{
+    border-style: none;
+}
+spam{
+    margin: 5px;    
+}
+
+
+.card-cupcake-fav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.img-produto-fav{
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+}
+.img-add{
+    max-width: 30px;
+    max-height: 30px;
+    z-index: 10;
+}
+.nome-prod-fav{
+    margin: 5px;
+    width: 150px;
+}
